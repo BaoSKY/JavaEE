@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="assignment2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/assignment2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="assignment2" />
+          <element id="library" level="application" name="jquery-3.0.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="assignment2/web/Web" />
+    </root>
+  </artifact>
+</component>
