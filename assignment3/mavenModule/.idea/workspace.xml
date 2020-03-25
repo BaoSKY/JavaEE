@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="assignment2:war exploded" />
+      <artifact name="JavaEE-02:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2a18a86-27ce-4442-8630-355038dd78f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8efc5dfb-9d95-4305-b48d-9e2a7134bdb3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -34,16 +27,24 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1YyQ4Aajy77v7E2DZFqoF79FAj2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\10067\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\10067\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zc1uq3X2GBnzpU792TZYW3PVyp" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaEE-02/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\大学各学科资料\大三\JavaEE\项目\assignment2\web\WEB-INF\lib" />
+      <recent name="E:\大学各学科资料\大三\JavaEE\项目\mavenModule\JavaEE-02\src\main\java" />
+      <recent name="E:\大学各学科资料\大三\JavaEE\项目\mavenModule\JavaEE-02\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,9 +76,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.14">
-    <configuration name="JDBCUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.JDBCUtil" />
-      <module name="assignment2" />
+    <configuration name="DatabasePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.DatabasePool" />
+      <module name="JavaEE-02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="util.*" />
@@ -87,17 +89,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="JDBCUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.JDBCUtil" />
+      <module name="JavaEE-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="assignment2:war exploded">
+        <artifact name="JavaEE-02:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_14_assignment2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mavenModule_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -105,7 +120,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59850" />
+        <option name="DEBUG_PORT" value="50066" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -155,17 +170,19 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="assignment2:war exploded" />
+          <artifact name="JavaEE-02:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JDBCUtil" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.14" />
+      <item itemvalue="Application.DatabasePool" />
+      <item itemvalue="Application.JDBCUtil" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JDBCUtil" />
+        <item itemvalue="Application.DatabasePool" />
       </list>
     </recent_temporary>
   </component>
@@ -174,30 +191,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2a18a86-27ce-4442-8630-355038dd78f1" name="Default Changelist" comment="" />
-      <created>1583912160870</created>
+      <changelist id="8efc5dfb-9d95-4305-b48d-9e2a7134bdb3" name="Default Changelist" comment="" />
+      <created>1585123793530</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583912160870</updated>
-      <workItem from="1583912167874" duration="11453000" />
-      <workItem from="1583978224493" duration="211000" />
-      <workItem from="1584080116864" duration="16307000" />
-      <workItem from="1585120630699" duration="49000" />
+      <updated>1585123793530</updated>
+      <workItem from="1585123804054" duration="3614000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
