@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMvc:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springMvc_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springMvc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMvc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.4.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: junit:junit:4.11" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.25" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
