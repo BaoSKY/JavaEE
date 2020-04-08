@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="JavaEE-02" />
         <module name="db" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaEE-02" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

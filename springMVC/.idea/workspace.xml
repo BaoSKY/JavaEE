@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springMvc/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mavenModule/JavaEE-02" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,16 +59,17 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\web" />
-      <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\web\WEB-INF\jsp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\web" />
       <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\src\com" />
       <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\src" />
       <recent name="E:\大学各学科资料\大三\JavaEE\项目\mavenModule\JavaEE-02\src\main\java" />
       <recent name="E:\大学各学科资料\大三\JavaEE\项目\mavenModule\JavaEE-02\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC" />
+      <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\web" />
+      <recent name="E:\大学各学科资料\大三\JavaEE\项目\springMVC\springMvc\web\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,9 +271,9 @@
     <list>
       <item itemvalue="Application.DatabasePool" />
       <item itemvalue="Application.JDBCUtil" />
+      <item itemvalue="Application.Util" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.14" />
       <item itemvalue="Tomcat Server.spring mvc" />
-      <item itemvalue="Application.Util" />
     </list>
     <recent_temporary>
       <list>
@@ -293,7 +294,9 @@
       <option name="presentableId" value="Default" />
       <updated>1585123793530</updated>
       <workItem from="1585123804054" duration="3614000" />
-      <workItem from="1586326478093" duration="7359000" />
+      <workItem from="1586326478093" duration="8013000" />
+      <workItem from="1586336091457" duration="705000" />
+      <workItem from="1586337009419" duration="238000" />
     </task>
     <servers />
   </component>
