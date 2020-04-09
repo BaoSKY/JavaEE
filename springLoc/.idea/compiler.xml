@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="JavaEE-02" />
+        <module name="springMvc" />
         <module name="db" />
       </profile>
     </annotationProcessing>

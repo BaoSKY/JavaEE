@@ -16,4 +16,5 @@
     <bean id="studentDao" class="com.daoImpl.StudentDaoImpl"/>
     <bean id="submitDao" class="com.daoImpl.SubmitDaoImpl"/>
     <bean id="teacherDao" class="com.daoImpl.TeacherDaoImpl"/>
+
 </beans>
