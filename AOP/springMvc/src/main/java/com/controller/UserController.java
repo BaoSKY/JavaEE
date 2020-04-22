@@ -32,18 +32,18 @@ public class UserController {
     HomeworkDao homeworkDao;
 
     @RequestMapping("login")
-    public String login(Model model, @RequestParam String user_type, @RequestParam String name, @RequestParam String password){
+    public String login(Model model, @RequestParam String user_type, @RequestParam String name, @RequestParam String password) {
 
-        if(user_type.equals("teacher")){
+        if (user_type.equals("teacher")) {
             Teacher teacher = teacherDao.getTeacher(name);
-            if(password.equals(teacher.getPassword())){
+            if (password.equals(teacher.getPassword())) {
 
                 model.addAttribute("teacher", teacher);
                 return "create_homework";
             }
-        }else if(user_type.equals("student")){
+        } else if (user_type.equals("student")) {
             Student student = studentDao.getStudent(name);
-            if(password.equals(student.getPassword())){
+            if (password.equals(student.getPassword())) {
                 model.addAttribute("sid", student.getId());
 
                 List<Homework> homeworkList = homeworkDao.getHomeworkOfStudent(student.getId());
@@ -57,14 +57,14 @@ public class UserController {
     }
 
     @RequestMapping("register")
-    public String register(Model model, @RequestParam String user_type, @RequestParam String name, @RequestParam String password){
+    public String register(Model model, @RequestParam String user_type, @RequestParam String name, @RequestParam String password) {
 
-        if(user_type.equals("teacher")){
-            if(teacherDao.addTeacher(name, password)){
+        if (user_type.equals("teacher")) {
+            if (teacherDao.addTeacher(name, password)) {
                 return "index";
             }
-        }else{
-            if(studentDao.addStudent(name, password)){
+        } else {
+            if (studentDao.addStudent(name, password)) {
                 return "index";
             }
         }

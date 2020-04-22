@@ -12,8 +12,5 @@
         <module name="db" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaEE-02" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

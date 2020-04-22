@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springMvc/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +55,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15285996" />
-    <property name="project.structure.side.proportion" value="0.3410943" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
@@ -303,7 +303,8 @@
       <workItem from="1586935216552" duration="1340000" />
       <workItem from="1586956895904" duration="1773000" />
       <workItem from="1587110017374" duration="11000" />
-      <workItem from="1587575943283" duration="391000" />
+      <workItem from="1587576089964" duration="388000" />
+      <workItem from="1587577842972" duration="1251000" />
     </task>
     <servers />
   </component>
