@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- webroot到一指定文件夹文件路径 -->
+        <property name="prefix" value="/"/>
+        <!-- 视图名称后缀  -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+<!--    <bean id="assignDao" class="com.serviceImpl.AssignServiceImpl"/>-->
+<!--    <bean id="homeworkDao" class="com.serviceImpl.HomeworkServiceImpl"/>-->
+<!--    <bean id="studentDao" class="com.serviceImpl.StudentServiceImpl"/>-->
+<!--    <bean id="submitDao" class="com.serviceImpl.SubmitServiceImpl"/>-->
+<!--    <bean id="teacherDao" class="com.serviceImpl.TeacherServiceImpl"/>-->
+
+</beans>
