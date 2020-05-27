@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/BaoSKY/SpringCloudConfig.git
+          search-paths: config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/ # 服务注册中心地址
