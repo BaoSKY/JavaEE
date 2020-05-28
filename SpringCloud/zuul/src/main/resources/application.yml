@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: zuul		#Zuul网关在Eureka的服务名称，随便取
+
+#  main:
+#    allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:

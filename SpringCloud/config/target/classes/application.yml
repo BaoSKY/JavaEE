@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/BaoSKY/SpringCloudConfig.git
+          uri: https://github.com/BaoSKY/JavaEE.git
           search-paths: config
 eureka:
   client:

@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationConfig">
+  <component name="RunManager" selected="Spring Boot.ApplicationEurekaServer">
     <configuration name="ApplicationConfig" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config" />
       <extension name="coverage">
@@ -82,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationEurekaClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-client" />
+    <configuration name="ApplicationEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eureka.client.*" />
+          <option name="PATTERN" value="eureka.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.client.ApplicationEurekaClient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.server.ApplicationEurekaServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApplicationConfig" />
         <item itemvalue="Spring Boot.ApplicationZuul" />
         <item itemvalue="Spring Boot.ApplicationConsumer" />
         <item itemvalue="Spring Boot.ApplicationProducer" />
-        <item itemvalue="Spring Boot.ApplicationEurekaClient" />
+        <item itemvalue="Spring Boot.ApplicationConfig" />
+        <item itemvalue="Spring Boot.ApplicationEurekaServer" />
       </list>
     </recent_temporary>
   </component>
@@ -139,12 +139,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@73548f27" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@45ee7d53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@73548f27" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ef244b41" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@45ee7d53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1882db2c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@45ee7d53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bde5cd49" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -163,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590568174214</updated>
       <workItem from="1590568178935" duration="5531000" />
+      <workItem from="1590626256459" duration="3646000" />
     </task>
     <servers />
   </component>
