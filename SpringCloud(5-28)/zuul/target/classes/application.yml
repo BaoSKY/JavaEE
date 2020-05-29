@@ -1,0 +1,15 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: zuul		#Zuul网关在Eureka的服务名称，随便取
+
+#  main:
+#    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka #Eureka的注册地址
+zuul:
+  routes:
+    provider.serviceId: consumer	#没有提示，自己取名称，值为服务的名称

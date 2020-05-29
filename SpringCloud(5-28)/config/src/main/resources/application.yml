@@ -1,0 +1,25 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/BaoSKY/JavaEE.git
+          search-paths: config
+  rabbitmq:
+    host: localhost
+    port: 7000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/ # 服务注册中心地址

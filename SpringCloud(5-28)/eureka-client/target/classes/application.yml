@@ -1,0 +1,9 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: eureka-client   #服务名称，随意取
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka #注册到Eureka的地址
